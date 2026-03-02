@@ -1,0 +1,44 @@
+{
+  "title": "Dashboard",
+  "welcome": "Welcome back",
+  "gateway": {
+    "title": "Gateway Status",
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connecting": "Connecting",
+    "error": "Error",
+    "version": "Version",
+    "uptime": "Uptime",
+    "messages": "Messages",
+    "clients": "Clients",
+    "start": "Start",
+    "stop": "Stop",
+    "restart": "Restart",
+    "openLog": "View Logs"
+  },
+  "stats": {
+    "title": "Statistics",
+    "totalMessages": "Total Messages",
+    "activeChannels": "Active Channels",
+    "activeSkills": "Active Skills",
+    "todayMessages": "Today's Messages"
+  },
+  "quickActions": {
+    "title": "Quick Actions",
+    "newChat": "New Chat",
+    "addChannel": "Add Channel",
+    "addSkill": "Add Skill",
+    "addCron": "Add Cron Job"
+  },
+  "recentActivity": {
+    "title": "Recent Activity",
+    "empty": "No recent activity",
+    "channel": "Channel",
+    "skill": "Skill"
+  },
+  "providers": {
+    "title": "AI Provider",
+    "current": "Current",
+    "model": "Model"
+  }
+}

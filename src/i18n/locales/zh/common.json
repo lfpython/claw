@@ -1,0 +1,75 @@
+{
+  "app": {
+    "name": "ClawWin",
+    "tagline": "Windows AI 桌面助手",
+    "version": "版本"
+  },
+  "nav": {
+    "dashboard": "仪表盘",
+    "chat": "聊天",
+    "channels": "渠道管理",
+    "skills": "技能",
+    "cron": "定时任务",
+    "settings": "设置"
+  },
+  "actions": {
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "delete": "删除",
+    "edit": "编辑",
+    "add": "添加",
+    "close": "关闭",
+    "back": "返回",
+    "next": "下一步",
+    "finish": "完成",
+    "retry": "重试",
+    "refresh": "刷新",
+    "copy": "复制",
+    "paste": "粘贴",
+    "search": "搜索",
+    "filter": "筛选",
+    "export": "导出",
+    "import": "导入",
+    "enable": "启用",
+    "disable": "禁用",
+    "start": "启动",
+    "stop": "停止",
+    "restart": "重启"
+  },
+  "status": {
+    "connected": "已连接",
+    "disconnected": "已断开",
+    "connecting": "连接中",
+    "error": "错误",
+    "running": "运行中",
+    "stopped": "已停止",
+    "loading": "加载中",
+    "saving": "保存中",
+    "success": "成功",
+    "failed": "失败"
+  },
+  "errors": {
+    "unknown": "发生未知错误",
+    "network": "网络错误，请检查连接",
+    "timeout": "请求超时",
+    "apiKey": "API Key 无效或未设置",
+    "notFound": "资源未找到",
+    "permissionDenied": "权限不足"
+  },
+  "gateway": {
+    "title": "OpenClaw Gateway",
+    "status": "Gateway 状态",
+    "start": "启动 Gateway",
+    "stop": "停止 Gateway",
+    "restart": "重启 Gateway",
+    "port": "端口",
+    "pid": "进程ID",
+    "connectedAt": "连接时间"
+  },
+  "language": {
+    "zh": "中文",
+    "en": "English",
+    "switch": "切换语言"
+  }
+}

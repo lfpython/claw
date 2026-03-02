@@ -1,0 +1,66 @@
+{
+  "title": "Settings",
+  "sections": {
+    "general": "General",
+    "providers": "AI Providers",
+    "gateway": "Gateway",
+    "appearance": "Appearance",
+    "language": "Language",
+    "update": "Updates",
+    "about": "About",
+    "advanced": "Advanced"
+  },
+  "general": {
+    "language": "Interface Language",
+    "minimizeToTray": "Minimize to tray on close",
+    "startWithWindows": "Start with Windows",
+    "autoStartGateway": "Auto-start Gateway"
+  },
+  "appearance": {
+    "theme": "Theme",
+    "dark": "Dark",
+    "light": "Light",
+    "system": "System",
+    "fontSize": "Font Size",
+    "fontFamily": "Font Family"
+  },
+  "providers": {
+    "title": "AI Provider Configuration",
+    "add": "Add Provider",
+    "apiKey": "API Key",
+    "baseUrl": "Base URL",
+    "defaultProvider": "Default Provider",
+    "defaultModel": "Default Model",
+    "testConnection": "Test Connection",
+    "keyHint": "API Key is securely encrypted",
+    "noKeyRequired": "No API Key required"
+  },
+  "gateway": {
+    "port": "Gateway Port",
+    "autoStart": "Auto Start",
+    "logLevel": "Log Level",
+    "openDataDir": "Open Data Directory",
+    "openLogDir": "View Logs"
+  },
+  "update": {
+    "title": "Software Updates",
+    "currentVersion": "Current Version",
+    "checkForUpdates": "Check for Updates",
+    "checking": "Checking...",
+    "upToDate": "You're up to date",
+    "available": "Update Available",
+    "downloading": "Downloading",
+    "downloaded": "Downloaded, waiting to install",
+    "install": "Install Now",
+    "autoUpdate": "Auto-download updates",
+    "releaseChannel": "Release Channel"
+  },
+  "about": {
+    "title": "About ClawWin",
+    "version": "Version",
+    "description": "Windows AI Desktop Client powered by OpenClaw",
+    "github": "GitHub Repository",
+    "feedback": "Report Issue",
+    "license": "MIT License"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Channels",
+  "add": "Add Channel",
+  "empty": "No channels yet. Add a channel to get started.",
+  "types": {
+    "feishu": "Feishu",
+    "telegram": "Telegram",
+    "discord": "Discord",
+    "wechat": "WeChat",
+    "dingtalk": "DingTalk",
+    "slack": "Slack",
+    "webhook": "Webhook"
+  },
+  "status": {
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "error": "Error",
+    "disabled": "Disabled"
+  },
+  "fields": {
+    "name": "Name",
+    "type": "Type",
+    "token": "Token",
+    "webhook": "Webhook URL",
+    "appId": "App ID",
+    "appSecret": "App Secret",
+    "enabled": "Enabled"
+  },
+  "actions": {
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "test": "Test Connection",
+    "configure": "Configure",
+    "delete": "Delete"
+  },
+  "dialog": {
+    "add": "Add Channel",
+    "edit": "Edit Channel",
+    "delete": "Confirm Delete",
+    "deleteConfirm": "Are you sure you want to delete channel \"{{name}}\"? This cannot be undone."
+  }
+}

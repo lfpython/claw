@@ -1,0 +1,44 @@
+{
+  "title": "仪表盘",
+  "welcome": "欢迎回来",
+  "gateway": {
+    "title": "Gateway 状态",
+    "connected": "已连接",
+    "disconnected": "未连接",
+    "connecting": "连接中",
+    "error": "连接错误",
+    "version": "版本",
+    "uptime": "运行时长",
+    "messages": "消息数量",
+    "clients": "连接客户端",
+    "start": "启动",
+    "stop": "停止",
+    "restart": "重启",
+    "openLog": "查看日志"
+  },
+  "stats": {
+    "title": "统计信息",
+    "totalMessages": "总消息数",
+    "activeChannels": "活跃渠道",
+    "activeSkills": "启用技能",
+    "todayMessages": "今日消息"
+  },
+  "quickActions": {
+    "title": "快捷操作",
+    "newChat": "新建聊天",
+    "addChannel": "添加渠道",
+    "addSkill": "添加技能",
+    "addCron": "添加定时任务"
+  },
+  "recentActivity": {
+    "title": "最近活动",
+    "empty": "暂无最近活动",
+    "channel": "渠道",
+    "skill": "技能"
+  },
+  "providers": {
+    "title": "AI 提供商",
+    "current": "当前使用",
+    "model": "模型"
+  }
+}

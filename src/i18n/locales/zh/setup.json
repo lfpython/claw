@@ -1,0 +1,46 @@
+{
+  "title": "欢迎使用 ClawWin",
+  "subtitle": "让我们来完成初始设置",
+  "steps": {
+    "language": "选择语言",
+    "provider": "选择 AI 模型",
+    "apiKey": "配置 API Key",
+    "complete": "完成设置"
+  },
+  "language": {
+    "title": "选择界面语言",
+    "subtitle": "你可以在设置中随时更改",
+    "zh": "中文（简体）",
+    "en": "English"
+  },
+  "provider": {
+    "title": "选择 AI 提供商",
+    "subtitle": "选择你常用的 AI 模型，国内用户推荐以下选项",
+    "domestic": "国内提供商（无需代理）",
+    "overseas": "海外提供商（需要代理）",
+    "local": "本地模型",
+    "recommended": "推荐",
+    "noProxy": "无需代理",
+    "requiresProxy": "需要代理",
+    "local_tag": "本地运行"
+  },
+  "apiKey": {
+    "title": "配置 API Key",
+    "subtitle": "输入你的 API Key，将安全加密存储在本地",
+    "placeholder": "请输入 API Key",
+    "getKey": "获取 API Key",
+    "skip": "跳过（稍后配置）",
+    "secure": "API Key 使用系统加密存储，不会上传到任何服务器",
+    "ollama": "Ollama 无需 API Key，确保 Ollama 服务正在运行即可"
+  },
+  "complete": {
+    "title": "设置完成！",
+    "subtitle": "ClawWin 已准备就绪",
+    "features": "你现在可以：",
+    "feature1": "与 AI 助手聊天",
+    "feature2": "管理消息渠道（飞书、Telegram 等）",
+    "feature3": "创建和运行 AI 技能",
+    "feature4": "设置定时任务",
+    "startButton": "开始使用 ClawWin"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "title": "渠道管理",
+  "add": "添加渠道",
+  "empty": "暂无渠道，点击添加渠道开始配置",
+  "types": {
+    "feishu": "飞书",
+    "telegram": "Telegram",
+    "discord": "Discord",
+    "wechat": "微信",
+    "dingtalk": "钉钉",
+    "slack": "Slack",
+    "webhook": "Webhook"
+  },
+  "status": {
+    "connected": "已连接",
+    "disconnected": "已断开",
+    "error": "错误",
+    "disabled": "已禁用"
+  },
+  "fields": {
+    "name": "名称",
+    "type": "类型",
+    "token": "Token",
+    "webhook": "Webhook URL",
+    "appId": "App ID",
+    "appSecret": "App Secret",
+    "enabled": "启用"
+  },
+  "actions": {
+    "connect": "连接",
+    "disconnect": "断开",
+    "test": "测试连接",
+    "configure": "配置",
+    "delete": "删除"
+  },
+  "dialog": {
+    "add": "添加渠道",
+    "edit": "编辑渠道",
+    "delete": "确认删除",
+    "deleteConfirm": "确定要删除渠道 \"{{name}}\" 吗？此操作不可撤销。"
+  }
+}

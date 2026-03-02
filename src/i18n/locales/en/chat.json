@@ -1,0 +1,33 @@
+{
+  "title": "Chat",
+  "newChat": "New Chat",
+  "placeholder": "Type a message, Enter to send, Shift+Enter for new line",
+  "send": "Send",
+  "stop": "Stop",
+  "clear": "Clear Chat",
+  "copy": "Copy",
+  "retry": "Retry",
+  "delete": "Delete",
+  "thinking": "Thinking...",
+  "generating": "Generating...",
+  "model": "Model",
+  "provider": "Provider",
+  "temperature": "Temperature",
+  "maxTokens": "Max Tokens",
+  "systemPrompt": "System Prompt",
+  "noMessages": "No messages yet. Start a conversation!",
+  "you": "You",
+  "assistant": "Assistant",
+  "tokens": "Token Usage",
+  "error": "Failed to send message",
+  "stream": "Stream",
+  "history": "History",
+  "exportChat": "Export Chat",
+  "toolbar": {
+    "model": "Switch Model",
+    "stream": "Streaming",
+    "systemPrompt": "System Prompt",
+    "clearChat": "Clear Chat",
+    "settings": "Chat Settings"
+  }
+}

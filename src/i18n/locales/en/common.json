@@ -1,0 +1,75 @@
+{
+  "app": {
+    "name": "ClawWin",
+    "tagline": "Windows AI Desktop Assistant",
+    "version": "Version"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "chat": "Chat",
+    "channels": "Channels",
+    "skills": "Skills",
+    "cron": "Cron Jobs",
+    "settings": "Settings"
+  },
+  "actions": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "delete": "Delete",
+    "edit": "Edit",
+    "add": "Add",
+    "close": "Close",
+    "back": "Back",
+    "next": "Next",
+    "finish": "Finish",
+    "retry": "Retry",
+    "refresh": "Refresh",
+    "copy": "Copy",
+    "paste": "Paste",
+    "search": "Search",
+    "filter": "Filter",
+    "export": "Export",
+    "import": "Import",
+    "enable": "Enable",
+    "disable": "Disable",
+    "start": "Start",
+    "stop": "Stop",
+    "restart": "Restart"
+  },
+  "status": {
+    "connected": "Connected",
+    "disconnected": "Disconnected",
+    "connecting": "Connecting",
+    "error": "Error",
+    "running": "Running",
+    "stopped": "Stopped",
+    "loading": "Loading",
+    "saving": "Saving",
+    "success": "Success",
+    "failed": "Failed"
+  },
+  "errors": {
+    "unknown": "An unknown error occurred",
+    "network": "Network error, please check connection",
+    "timeout": "Request timed out",
+    "apiKey": "API Key is invalid or not set",
+    "notFound": "Resource not found",
+    "permissionDenied": "Permission denied"
+  },
+  "gateway": {
+    "title": "OpenClaw Gateway",
+    "status": "Gateway Status",
+    "start": "Start Gateway",
+    "stop": "Stop Gateway",
+    "restart": "Restart Gateway",
+    "port": "Port",
+    "pid": "Process ID",
+    "connectedAt": "Connected At"
+  },
+  "language": {
+    "zh": "中文",
+    "en": "English",
+    "switch": "Switch Language"
+  }
+}

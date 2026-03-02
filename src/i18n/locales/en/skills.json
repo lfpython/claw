@@ -1,0 +1,38 @@
+{
+  "title": "Skills",
+  "add": "Add Skill",
+  "empty": "No skills installed. Install from the skill marketplace or add manually.",
+  "search": "Search skills",
+  "installed": "Installed",
+  "available": "Available",
+  "market": "Marketplace",
+  "status": {
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "error": "Error"
+  },
+  "fields": {
+    "name": "Name",
+    "description": "Description",
+    "version": "Version",
+    "author": "Author",
+    "enabled": "Enabled",
+    "config": "Config"
+  },
+  "actions": {
+    "run": "Run",
+    "configure": "Configure",
+    "delete": "Uninstall",
+    "enable": "Enable",
+    "disable": "Disable",
+    "update": "Update"
+  },
+  "run": {
+    "title": "Run Skill",
+    "input": "Input",
+    "output": "Output",
+    "running": "Running...",
+    "success": "Success",
+    "failed": "Failed"
+  }
+}

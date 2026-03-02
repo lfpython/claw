@@ -1,0 +1,66 @@
+{
+  "title": "设置",
+  "sections": {
+    "general": "通用",
+    "providers": "AI 提供商",
+    "gateway": "Gateway",
+    "appearance": "外观",
+    "language": "语言",
+    "update": "更新",
+    "about": "关于",
+    "advanced": "高级"
+  },
+  "general": {
+    "language": "界面语言",
+    "minimizeToTray": "关闭时最小化到托盘",
+    "startWithWindows": "开机自动启动",
+    "autoStartGateway": "自动启动 Gateway"
+  },
+  "appearance": {
+    "theme": "主题",
+    "dark": "深色",
+    "light": "浅色",
+    "system": "跟随系统",
+    "fontSize": "字体大小",
+    "fontFamily": "字体"
+  },
+  "providers": {
+    "title": "AI 提供商配置",
+    "add": "添加提供商",
+    "apiKey": "API Key",
+    "baseUrl": "接口地址",
+    "defaultProvider": "默认提供商",
+    "defaultModel": "默认模型",
+    "testConnection": "测试连接",
+    "keyHint": "API Key 已安全加密存储",
+    "noKeyRequired": "无需 API Key"
+  },
+  "gateway": {
+    "port": "Gateway 端口",
+    "autoStart": "自动启动",
+    "logLevel": "日志级别",
+    "openDataDir": "打开数据目录",
+    "openLogDir": "查看日志"
+  },
+  "update": {
+    "title": "软件更新",
+    "currentVersion": "当前版本",
+    "checkForUpdates": "检查更新",
+    "checking": "检查中...",
+    "upToDate": "已是最新版本",
+    "available": "发现新版本",
+    "downloading": "下载中",
+    "downloaded": "已下载，等待安装",
+    "install": "立即安装",
+    "autoUpdate": "自动下载更新",
+    "releaseChannel": "更新通道"
+  },
+  "about": {
+    "title": "关于 ClawWin",
+    "version": "版本",
+    "description": "基于 OpenClaw 的 Windows AI 桌面客户端",
+    "github": "GitHub 仓库",
+    "feedback": "反馈问题",
+    "license": "MIT 许可证"
+  }
+}

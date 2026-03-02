@@ -1,0 +1,46 @@
+{
+  "title": "Welcome to ClawWin",
+  "subtitle": "Let's get you set up",
+  "steps": {
+    "language": "Language",
+    "provider": "AI Model",
+    "apiKey": "API Key",
+    "complete": "Complete"
+  },
+  "language": {
+    "title": "Choose Interface Language",
+    "subtitle": "You can change this anytime in Settings",
+    "zh": "中文（简体）",
+    "en": "English"
+  },
+  "provider": {
+    "title": "Choose AI Provider",
+    "subtitle": "Select your preferred AI model provider",
+    "domestic": "Domestic Providers (No proxy needed)",
+    "overseas": "Overseas Providers (Proxy required)",
+    "local": "Local Models",
+    "recommended": "Recommended",
+    "noProxy": "No Proxy",
+    "requiresProxy": "Requires Proxy",
+    "local_tag": "Local"
+  },
+  "apiKey": {
+    "title": "Configure API Key",
+    "subtitle": "Your API key is encrypted and stored locally",
+    "placeholder": "Enter your API Key",
+    "getKey": "Get API Key",
+    "skip": "Skip (configure later)",
+    "secure": "API Key is encrypted using system keychain and never uploaded",
+    "ollama": "Ollama doesn't require an API key. Make sure Ollama is running."
+  },
+  "complete": {
+    "title": "Setup Complete!",
+    "subtitle": "ClawWin is ready to use",
+    "features": "You can now:",
+    "feature1": "Chat with AI assistants",
+    "feature2": "Manage message channels (Feishu, Telegram, etc.)",
+    "feature3": "Create and run AI skills",
+    "feature4": "Set up scheduled tasks",
+    "startButton": "Start Using ClawWin"
+  }
+}

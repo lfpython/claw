@@ -1,0 +1,90 @@
+name: Build & Release Windows Installer
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+    inputs:
+      version:
+        description: 'Version tag (e.g. v0.1.0)'
+        required: true
+        default: 'v0.1.0'
+
+jobs:
+  build-windows:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 10
+
+      - name: Get pnpm store directory
+        shell: bash
+        run: echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_ENV
+
+      - name: Cache pnpm store
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.STORE_PATH }}
+          key: ${{ runner.os }}-pnpm-${{ hashFiles('**/package.json') }}
+          restore-keys: ${{ runner.os }}-pnpm-
+
+      - name: Install dependencies
+        run: pnpm install --no-frozen-lockfile
+
+      - name: Build Vite
+        run: pnpm run build:renderer
+
+      - name: Package Windows installer
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: pnpm run package:win
+
+      - name: Upload installer artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ClawWin-Windows-Installer
+          path: |
+            release/**/*.exe
+            release/**/*.zip
+          retention-days: 30
+
+      - name: Create Release
+        if: startsWith(github.ref, 'refs/tags/') || github.event_name == 'workflow_dispatch'
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event.inputs.version || github.ref_name }}
+          name: ClawWin ${{ github.event.inputs.version || github.ref_name }}
+          draft: false
+          prerelease: false
+          files: |
+            release/**/*.exe
+            release/**/*.zip
+          body: |
+            ## ClawWin ${{ github.event.inputs.version || github.ref_name }}
+
+            基于 OpenClaw 的 Windows AI 桌面助手
+
+            ### 下载说明
+            - `ClawWin-Setup-*.exe` — Windows 安装包（推荐）
+            - `ClawWin-*-win.zip` — 便携版（无需安装）
+
+            ### 支持的 AI 提供商
+            - 🇨🇳 国内直连：智谱 Z.AI、DeepSeek、通义千问、MiniMax、Moonshot、硅基流动
+            - 🌐 国际：OpenAI、Anthropic（需科学上网）
+            - 🏠 本地：Ollama
+
+            ### 系统要求
+            - Windows 10 / 11 (x64 / ARM64)
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

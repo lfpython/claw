@@ -23,7 +23,6 @@ win:
       arch:
         - x64
         - arm64
-  icon: resources/icons/icon.ico
   requestedExecutionLevel: asInvoker
   artifactName: ClawWin-Setup-${version}-${arch}.exe
 
@@ -36,9 +35,6 @@ nsis:
   createStartMenuShortcut: true
   shortcutName: ClawWin
   uninstallDisplayName: ClawWin
-  installerIcon: resources/icons/icon.ico
-  uninstallerIcon: resources/icons/icon.ico
-  installerHeaderIcon: resources/icons/icon.ico
   deleteAppDataOnUninstall: false
   menuCategory: ClawWin
 
